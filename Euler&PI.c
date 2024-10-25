@@ -92,12 +92,12 @@ float alphabet(){
 #deine False 0
 double PI(){
     sacanf("%lf,%lf,%lf,%lf,%lf,%lf")
-    for(A = 0; A > 0; A--){
-        for(B = 0; B > 0; B--){
-            for(C = 0; C > 0; C--){
-                for(D = 0; D > 0; D--){
-                    for(E = 0; E > 0; E--){
-                        for(F = 0; F > 0; F--){
+    for(A = 0; A >= 0; A--){
+        for(B = 0; B >= 0; B--){
+            for(C = 0; C >= 0; C--){
+                for(D = 0; D >= 0; D--){
+                    for(E = 0; E >= 0; E--){
+                        for(F = 0; F >= 0; F--){
                         printf("PI = %lf\n", A/B/C/D/E/F);
                     }
                 }
